@@ -27,11 +27,18 @@
 <body>
     <header class="bg-[#FFFBF0] px-4 md:px-32 py-20">
         <!-- nav section -->
-        <nav>
-
+        <nav class="flex flex-col  md:flex-row  justify-around items-center gap-14">
+            <!-- <h2 class="text-3xl font-black">MH Penguin <span class="text-[#A4BC46]">Fashion</span></h2> -->
+            <img class="w-96" src="icons/logo.png" alt="">
+            <ul class="flex md:flex-row  justify-center items-center gap-10">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">contact us</a></li>
+            </ul>
         </nav>
         <!-- banner section -->
-        <div class="flex flex-col md:flex-row justify-around items-center">
+        <div class="flex flex-col md:flex-row justify-around items-center mt-10">
             <div class="space-y-3">
                 <h1 class="text-7xl uppercase"><span class="text-[#FABE4C] font-bebas">Be the Penguins</span> <br> of Winter</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing 
@@ -113,6 +120,40 @@
                         <button class="py-4 uppercase px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl text-white font-medium"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="flex flex-col m-10 md:flex-row justify-center items-center gap-24 md:mb-44 md:mt-36">
+            <div>
+                <div class="flex flex-col text-center  mt-12 md:mt-10  md:text-start md:flex-row items-center gap-9">
+                    <div>
+                        <img class="w-20 h-20" src="icons/house.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Find the Perfect Fit</h3>
+                        <p>Everybody is different, which is why we <br>offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col text-center  mt-12 md:mt-10  md:text-start md:flex-row items-center gap-9">
+                    <div>
+                        <img class="w-20 h-20" src="icons/box.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Free Exchanges</h3>
+                        <p>One of the many reasons you can shop <br>with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col text-center mt-12 md:mt-10 md:text-start md:flex-row items-center gap-9">
+                    <div>
+                        <img class="w-20 h-20" src="icons/question.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Contact Our Seller</h3>
+                        <p>They are here to help you. That's quite <br> literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="md:w-[500px] md:h-[400px] w-64 h-60" src="images/shopping.png" alt="">
             </div>
         </section>
     </main>
